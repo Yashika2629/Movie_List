@@ -13,7 +13,7 @@ const Header = ({ onOpenAdd, onToggleSidebar }) => {
         </div>
       </div>
       <button className="btn-primary" onClick={onOpenAdd}>
-        + Add Movie
+        + Add <span className="btn-text-extra">Movie</span>
       </button>
     </header>
   );
